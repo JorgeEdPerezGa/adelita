@@ -9,6 +9,11 @@
   .container p {
     color: #dad8d8; }
 
+.pQuote {
+  color: white;
+  margin:3em;
+}
+
 .next-button {
   font-size: 13px;
   width: 85px;
