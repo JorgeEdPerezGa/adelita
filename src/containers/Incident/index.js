@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Register extends Component {
+class Incident extends Component {
   render() {
     return (
       <div>
-        <p>Register</p>
+        <p>Incident</p>
       </div>
     );
   }
 }
 
-export default Register;
+export default Incident;
