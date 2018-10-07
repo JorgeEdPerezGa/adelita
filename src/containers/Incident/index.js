@@ -25,7 +25,11 @@ class Incident extends Component {
     console.log("print pass")
     console.log(options);
       if(this.state.next==911) {
-        alert('calling 911..')
+        alert('calling 911..');
+      }
+      else if(this.state.next==999) {
+        alert('Finished Report.');
+        this.props.history.push('/');
       }
       else {
         this.setState({
