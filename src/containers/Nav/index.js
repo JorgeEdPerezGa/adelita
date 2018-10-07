@@ -11,7 +11,7 @@ class Nav extends Component {
           <NavLink className='nav' to='/incident'>incident</NavLink>
           <NavLink className='nav' to='/journal'>journal</NavLink>
           <NavLink className='nav' to='/resources'>resources</NavLink>
-          <NavLink className='nav' to='/login'>login</NavLink>
+          <NavLink className='nav' to='/login'>logout</NavLink>
         </div>
       </div>
     );
