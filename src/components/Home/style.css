@@ -1,15 +1,35 @@
-.container {
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  color: white;
-  width: 75%;
-  margin: 10%;
-}
+.home {
+  height: 100vh; }
 
-.sub-container {
-  float: left;
-  background-color: #282c34;
-	padding: 6em;
-}
+.home-container {
+  top: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  align-items: center;
+  height: 100%;
+  width: 100vw; }
+
+.container-item {
+  border-radius: 100px;
+  padding: 20px;
+  width: 120px;
+  margin: 10px 40px;
+  height: 120px;
+  background: #0b6b8a;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); }
+  .container-item:hover {
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.7);
+    cursor: pointer; }
+
+.icon-journal {
+  background-image: url("../../assets/icons/journal.svg"); }
+
+.icon-incident {
+  background-image: url("../../assets/icons/incident.svg"); }
+
+.icon-resources {
+  background-image: url("../../assets/icons/resources.svg"); }

@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
+import Video from '../Video';
 import './style.css';
 
 class Home extends Component {
   render() {
     return (
-      <div>
-        <div className="container">
-          <div className="sub-container">
-            <p>Incident</p>
-          </div>
-          <div className="sub-container">
-            <p>Journal</p>
-          </div>
-          <div className="sub-container">
-            <p>Resource</p>
-          </div>
+      <div className="home">
+        <Video/>
+        <div className="home-container">
+          <div className="logo-text"></div>
+          <div className="container-item icon-journal"></div>
+          <div className="container-item icon-incident"></div>
+          <div className="container-item icon-resources"></div>
         </div>
       </div>
     );
