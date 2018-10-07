@@ -92,6 +92,7 @@ class Incident extends Component {
   render() {
     return (
       <div className="containerHolder">
+      <p className="pQuote"> </p>
         {this.genQA()}
           <div className="navContainer">
             <div>
