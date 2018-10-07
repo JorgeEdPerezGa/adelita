@@ -23,12 +23,17 @@ class Incident extends Component {
 
   handleNextClick = (options) => {
     console.log("print pass")
-        console.log(options);
-    this.setState({
-      current: this.state.next,
-      prev: this.state.current
-    });
     console.log(options);
+      if(this.state.next==911) {
+        alert('calling 911..')
+      }
+      else {
+        this.setState({
+          current: this.state.next,
+          prev: this.state.current
+        });
+        console.log(options);
+      }
   }
 
   handlePrevClick = (options) => {
@@ -90,7 +95,7 @@ class Incident extends Component {
               <button onClick={() => this.handlePrevClick()}>Previous</button>
             </div>
             <div>
-              <button onClick={() => this.handleNextClick()} >Next</button>
+              <button onClick={() => this.handleNextClick()}>Next</button>
             </div>
           </div>
         </div>
