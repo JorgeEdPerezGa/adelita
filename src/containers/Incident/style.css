@@ -1,0 +1,25 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 2em;
+	margin: 2em;
+	background-color: grey;
+}
+
+.containerHolder {
+	margin-top: 3em;
+	align-items: center;
+}
+
+.cardHolder {
+	margin-top: 5em;
+	display: flex;
+	justify-content: space-around;
+}
+
+.navContainer {
+	margin-top: 5em;
+	padding: 2em;
+	display: flex;
+	justify-content: space-between;
+}

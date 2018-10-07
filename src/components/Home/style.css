@@ -1,0 +1,15 @@
+.container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  width: 75%;
+  margin: 10%;
+}
+
+.sub-container {
+  float: left;
+  background-color: #282c34;
+	padding: 6em;
+}
