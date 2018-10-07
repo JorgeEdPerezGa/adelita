@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: #1d1d1d;
 }
 
 .App-header {
@@ -11,4 +12,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+button {
+  &:hover {
+    cursor: pointer;
+  }
 }

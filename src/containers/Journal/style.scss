@@ -16,14 +16,14 @@ p {
 }
 
 .journal-form {
-  background: #109fc5;
+  background: #4b988b;
   width: 800px;
   margin: auto;
   display: flex;
   justify-content: center;
   // flex-direction: column;
   align-items: center;
-  padding: 20px 15px 20px 15px;
+  padding: 23px 15px 20px 15px;
 }
 
 .journal-input {
@@ -46,7 +46,7 @@ p {
 .submit-button {
   height: 30px;
   font-size: 13px;
-  background: #68b1cf;
+	background: #51c9b4;
   color: white;
   border: none;
   width: 112px;
@@ -58,10 +58,10 @@ p {
     }
     &:disabled {
       cursor: default;
-      background: #7b7f8a;
+      background: #8eada7;
       color: white;
       &:hover {
-        background: #7b7f8a;
+        background: #8eada7;
         color: white;
       }
     }

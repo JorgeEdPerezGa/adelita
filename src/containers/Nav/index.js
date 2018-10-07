@@ -6,12 +6,14 @@ class Nav extends Component {
   render() {
     return (
       <div className='menu'>
-        <NavLink className='icon' to='/home'><p>adelita</p></NavLink>
+        <NavLink className='icon' to='/ '>
+        <div className='small-logo'/>
+        <p>adelita</p></NavLink>
         <div className='pages'>
           <NavLink className='nav' to='/incident'>incident</NavLink>
           <NavLink className='nav' to='/journal'>journal</NavLink>
           <NavLink className='nav' to='/resources'>resources</NavLink>
-          <NavLink className='nav' to='/login'>logout</NavLink>
+          <NavLink className='nav' to='/'>logout</NavLink>
         </div>
       </div>
     );
