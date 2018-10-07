@@ -1,0 +1,66 @@
+.card {
+  margin: 0 0 12px 0;
+  width: 65%;
+  height: 190px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  border-radius: 0;
+  border: none; }
+
+.card-index {
+  color: white;
+  font-size: 50px;
+  font-weight: 700; }
+
+.card-section-left {
+  width: 15%;
+  background: #68dcfb;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0px 15px 0; }
+
+.card-section-right {
+  width: 90%; }
+
+.title {
+  font-size: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: inline-block; }
+
+.body {
+  font-size: 17px;
+  font-weight: 300;
+  padding-right: 25px; }
+
+.date {
+  padding-top: 12px;
+  font-size: 15px;
+  color: #67b1cf; }
+
+.body-container {
+  height: 90px;
+  overflow: scroll; }
+
+.delete-image {
+  padding: 0px;
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/images/delete.svg");
+  background-repeat: no-repeat;
+  background-image: cover; }
+  .delete-image:hover {
+    background-image: url("../../assets/images/delete-hover.svg"); }
+
+.delete-button {
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: none; }
+  .delete-button:hover {
+    cursor: pointer; }

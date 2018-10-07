@@ -1,0 +1,66 @@
+p {
+  margin: 0; }
+
+.journal {
+  padding-top: 60px;
+  background: #1d1d1d;
+  min-height: 100vh; }
+
+.description {
+  background: #7fd3e8;
+  color: white;
+  padding: 0 45% 0px 30px; }
+
+.journal-form {
+  background: #109fc5;
+  width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 15px 20px 15px; }
+
+.journal-input {
+  flex: 1;
+  height: 30px;
+  font-size: 15px;
+  border: none;
+  margin: 12px;
+  padding-left: 5px; }
+  .journal-input::placeholder {
+    color: #68b1cf; }
+
+.journal-input-body {
+  flex: 2;
+  resize: none; }
+
+.submit-button {
+  height: 30px;
+  font-size: 13px;
+  background: #68b1cf;
+  color: white;
+  border: none;
+  width: 112px;
+  margin: 12px; }
+  .submit-button:hover {
+    cursor: pointer;
+    background: white;
+    color: gray; }
+  .submit-button:disabled {
+    cursor: default;
+    background: #7b7f8a;
+    color: white; }
+    .submit-button:disabled:hover {
+      background: #7b7f8a;
+      color: white; }
+
+.cards {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  background: #303134;
+  padding-top: 12px;
+  align-items: center;
+  width: 800px;
+  margin: auto;
+  text-align: left; }

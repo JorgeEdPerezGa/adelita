@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import Nav from '../../containers/Nav';
-import Home from '../Home'
+import Home from '../Home';
 import Login from '../../containers/Login';
 import Incident from '../../containers/Incident';
 import Journal from '../../containers/Journal';
-import Resources from '../Resources';
+import Resources from '../../containers/Resources';
 
 const Routes = () => {
   return (

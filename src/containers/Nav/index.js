@@ -5,13 +5,13 @@ import './style.css';
 class Nav extends Component {
   render() {
     return (
-      <div className='bar'>
-        <NavLink className='nav icon' to='/home'><p>ADELITA</p></NavLink>
-        <div className='menuBar'>
-        <NavLink className='nav' to='/incident'>Incident</NavLink>
-        <NavLink className='nav' to='/journal'>Journal</NavLink>
-        <NavLink className='nav' to='/resources'>Resources</NavLink>
-        <NavLink className='nav' to='/login'>Login</NavLink>
+      <div className='menu'>
+        <NavLink className='icon' to='/home'><p>adelita</p></NavLink>
+        <div className='pages'>
+          <NavLink className='nav' to='/incident'>incident</NavLink>
+          <NavLink className='nav' to='/journal'>journal</NavLink>
+          <NavLink className='nav' to='/resources'>resources</NavLink>
+          <NavLink className='nav' to='/login'>login</NavLink>
         </div>
       </div>
     );

@@ -1,0 +1,25 @@
+.video-detail {
+  margin: 22px auto;
+  max-width: 800px; }
+
+.video-details {
+  color: white;
+  background: #2d2c2c;
+  margin-top: 16px; }
+
+.main-video-title {
+  padding: 12px;
+  color: white;
+  font-size: 20px;
+  font-weight: 300; }
+
+.main-video-description {
+  padding: 0 12px 40px 12px;
+  color: white;
+  font-weight: 100;
+  font-size: 16px; }
+
+.loading {
+  color: white;
+  text-align: center;
+  margin: 100px; }
