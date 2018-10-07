@@ -25,3 +25,9 @@
 .icon {
   padding-left: 30px;
   color: white; }
+
+.small-logo {
+  background-image: url("../../assets/icons/logo.svg");
+  background-position: center;
+  background-size: cover;
+  width: 200px; }

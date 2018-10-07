@@ -1,25 +1,55 @@
 .container {
-	display: flex;
-	flex-direction: column;
-	padding: 2em;
-	margin: 2em;
-	background-color: grey;
-}
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  margin: 2em;
+  width: 90%;
+  border: 4px #546670 solid;
+  background-color: #131313; }
+  .container p {
+    color: #dad8d8; }
+
+.next-button {
+  font-size: 13px;
+  width: 85px;
+  height: 33px;
+  border: none;
+  background: #459a8c;
+  color: white; }
+  .next-button:hover {
+    background: #57b6a7; }
 
 .containerHolder {
-	margin-top: 3em;
-	align-items: center;
-}
+  background: #303134;
+  margin-top: 3em;
+  align-items: center;
+  margin-top: 3em;
+  width: 800px;
+  height: 100vh;
+  margin: auto;
+  align-items: center;
+  padding-top: 70px; }
 
 .cardHolder {
-	margin-top: 5em;
-	display: flex;
-	justify-content: space-around;
-}
+  margin: 24px;
+  display: flex;
+  justify-content: center; }
 
 .navContainer {
-	margin-top: 5em;
-	padding: 2em;
-	display: flex;
-	justify-content: space-between;
-}
+  padding: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px; }
+
+.page-buttons {
+  height: 34px;
+  background: #6299b9;
+  border: none;
+  padding: 5px 20px;
+  margin: 20px;
+  color: #f7f7f7; }
+  .page-buttons p {
+    color: white;
+    font-size: 13px; }
+  .page-buttons:hover {
+    background: #71b1d6; }

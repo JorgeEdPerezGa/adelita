@@ -30,6 +30,7 @@
   background: #0b6b8a;
   background-size: cover;
   background-repeat: no-repeat;
+  transform: scale(1.2);
   // box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   &:hover {
     // box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.7);
@@ -44,6 +45,7 @@
   width: 60%;
   margin: 90px auto 0px;
   height: 190px;
+  transform: scale(.8);
 }
 
 .icon-journal {

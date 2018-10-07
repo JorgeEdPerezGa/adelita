@@ -49,18 +49,18 @@ class Incident extends Component {
     console.log(options);
   }
 
-    handleAnswerType(options) { 
+    handleAnswerType(options) {
       return(
         <div>
       {isNaN(options.ans) ? (
-        <button 
-          className="cards"
+        <button
+          className="page-buttons"
           onClick={() => this.handleAnsClick(options)} >
             <p>{options.ans}</p>
         </button>
         ) : (
         <input
-          className="cards"
+          className="page-buttons"
           onChange={() => this.handleAnsClick(options)} >
         </input>
         )}
@@ -92,14 +92,13 @@ class Incident extends Component {
   render() {
     return (
       <div className="containerHolder">
-        <p>Incident</p>
         {this.genQA()}
           <div className="navContainer">
             <div>
-              <button onClick={() => this.handlePrevClick()}>Previous</button>
+              <button className = "next-button" onClick={() => this.handlePrevClick()}>Previous</button>
             </div>
             <div>
-              <button onClick={() => this.handleNextClick()}>Next</button>
+              <button className = "next-button" onClick={() => this.handleNextClick()}>Next</button>
             </div>
           </div>
         </div>

@@ -1,0 +1,65 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 2em;
+	margin: 2em;
+	width: 90%;
+	border: 4px #546670 solid;
+	background-color: #131313;
+	p {
+		color: #dad8d8;
+	}
+}
+
+.next-button {
+	font-size: 13px;
+	width: 85px;
+	height: 33px;
+	border: none;
+	background: #459a8c;
+	color: white;
+	&:hover {
+		background: #57b6a7;
+	}
+}
+
+.containerHolder {
+	background: #303134;
+	margin-top: 3em;
+	align-items: center;
+	margin-top: 3em;
+  width: 800px;
+  height: 100vh;
+  margin: auto;
+  align-items: center;
+	padding-top: 70px;
+}
+
+.cardHolder {
+  margin: 24px;
+	display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+	padding: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+
+.page-buttons {
+	 height: 34px;
+	background: #6299b9;
+	border: none;
+	padding: 5px 20px;
+	margin: 20px;
+	color: #f7f7f7;
+	p {
+		color: white;
+		font-size: 13px;
+	}
+	&:hover {
+		background: #71b1d6;
+	}
+}
