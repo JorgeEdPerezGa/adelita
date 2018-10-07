@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import './style.css';
 
 class Nav extends Component {
   render() {
     return (
-      <div>
-        <p>adelita</p>
-        <NavLink className='nav' to='/'></NavLink>
-        <NavLink className='nav' to='/login'>login</NavLink>
-        <NavLink className='nav' to='/incident'>incident</NavLink>
-        <NavLink className='nav' to='/journal'>journal</NavLink>
-        <NavLink className='nav' to='/resources'>resources</NavLink>
+      <div className='bar'>
+        <NavLink className='nav icon' to='/home'><p>ADELITA</p></NavLink>
+        <div className='menuBar'>
+        <NavLink className='nav' to='/incident'>Incident</NavLink>
+        <NavLink className='nav' to='/journal'>Journal</NavLink>
+        <NavLink className='nav' to='/resources'>Resources</NavLink>
+        <NavLink className='nav' to='/login'>Login</NavLink>
+        </div>
       </div>
     );
   }
