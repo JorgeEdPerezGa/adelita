@@ -4,7 +4,7 @@ class Incident extends Component {
   render() {
     return (
       <div>
-        <p>Register</p>
+        <p>Incident</p>
       </div>
     );
   }

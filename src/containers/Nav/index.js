@@ -8,7 +8,7 @@ class Nav extends Component {
         <p>adelita</p>
         <NavLink className='nav' to='/'></NavLink>
         <NavLink className='nav' to='/login'>login</NavLink>
-        <NavLink className='nav' to='/register'>register</NavLink>
+        <NavLink className='nav' to='/incident'>incident</NavLink>
         <NavLink className='nav' to='/journal'>journal</NavLink>
         <NavLink className='nav' to='/resources'>resources</NavLink>
       </div>
